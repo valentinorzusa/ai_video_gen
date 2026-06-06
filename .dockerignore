@@ -1,0 +1,42 @@
+# ── Python cache ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Secrets & credentials (NEVER in the image) ─────────────
+youtube_bot/.env
+youtube_bot/token.json
+youtube_bot/client_secret*.json
+youtube_bot/credentials/
+
+# ── Generated output (large binary files) ──────────────────
+youtube_bot/output/
+youtube_bot/music/*.mp3
+youtube_bot/music/*.wav
+
+# ── IDE / OS artifacts ─────────────────────────────────────
+.gemini/
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# ── Git ─────────────────────────────────────────────────────
+.git/
+.gitignore
+
+# ── ComfyUI / Whisper (separate concerns) ───────────────────
+ComfyUI/
+whisper/

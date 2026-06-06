@@ -1,0 +1,9 @@
+# Rules are managed in the root .gitignore — see ../../.gitignore
+# Keeping this file so git doesn't re-track ignored files in this subtree.
+.env
+token.json
+client_secret*.json
+output/
+__pycache__/
+*.py[cod]
+*.log

@@ -1,0 +1,55 @@
+# ── Secrets & credentials (NEVER commit these) ──────────────
+.env
+*.env.*
+token.json
+client_secret*.json
+youtube_bot/credentials/
+youtube_bot/*.json
+youtube_bot/*.yaml
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ── Virtual environments ──────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── External Dependencies ────────────────────────────────────
+ComfyUI/
+whisper/
+
+# ── Generated output (large binary files) ────────────────────
+youtube_bot/output/
+youtube_bot/music/*.mp3
+youtube_bot/music/*.wav
+youtube_bot/music/*.ogg
+
+# ── IDE & OS artifacts ────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Gemini / IDE tool data ────────────────────────────────────
+.gemini/
+
+# ── Docker ───────────────────────────────────────────────────
+# (Dockerfile and .dockerignore ARE committed — they're needed for the build)
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
