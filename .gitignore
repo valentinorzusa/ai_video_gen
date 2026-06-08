@@ -6,6 +6,7 @@ token.json
 client_secret*.json
 youtube_bot/credentials/
 youtube_bot/*.json
+!youtube_bot/47d245c34a7d.json
 youtube_bot/*.yaml
 
 # ── Python ───────────────────────────────────────────────────
