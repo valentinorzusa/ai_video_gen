@@ -17,7 +17,7 @@ echo "=========================================="
 # 1. Update ComfyUI to support the latest models and features
 echo "--> Updating ComfyUI core..."
 cd $COMFY_DIR
-git pull
+git pull origin master || true
 
 # 2. Install necessary pip packages
 echo "--> Installing huggingface_hub..."
