@@ -462,6 +462,7 @@ def patch_env_comfyui_url(comfyui_url: str) -> None:
         text = text.rstrip() + f"\nCOMFYUI_URL={comfyui_url}\n"
 
     ENV_PATH.write_text(text, encoding="utf-8")
+    os.environ["COMFYUI_URL"] = comfyui_url
     print(f"[ENV] COMFYUI_URL set → {comfyui_url}")
 
 
